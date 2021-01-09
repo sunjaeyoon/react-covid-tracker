@@ -56,8 +56,10 @@ function App() {
         </FormControl>
       </div>
       {/* info */}
-      <div className="app_stats">
-
+      <div className="app__stats">
+        <InfoBox title="Coronavirus Cases" cases={123} total={200} />
+        <InfoBox title="Recovered" cases={123} total={200} />
+        <InfoBox title="Deaths" cases={123} total={200} />
       </div>
       {/* info */}
       {/* info */}

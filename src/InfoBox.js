@@ -13,4 +13,4 @@ function InfoBox({title, cases, total}){
     )
 }
 
-export default infoBox;
+export default InfoBox;
