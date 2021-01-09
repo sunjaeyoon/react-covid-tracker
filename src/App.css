@@ -1,2 +1,9 @@
 .app {
+  font-family: Tahoma, sans-serif;
+
+}
+
+.app__header{
+  display: flex;
+  justify-content: space-between;
 }
