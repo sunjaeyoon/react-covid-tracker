@@ -1,9 +1,26 @@
 .app {
   font-family: Tahoma, sans-serif;
+  display: flex;
+  justify-content: space-evenly;
 
 }
 
-.app__header{
+.app__header {
   display: flex;
   justify-content: space-between;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__left{
+  flex: 0.9;
+}
+
+@media (max-width: 500px){
+  .app {
+    flex-direction: column;
+  }
 }

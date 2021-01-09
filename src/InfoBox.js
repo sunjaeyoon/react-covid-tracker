@@ -7,10 +7,10 @@ function InfoBox({title, cases, total}){
             <CardContent>
                 <Typography className="infoBox__title" color="textSecondary">{title}</Typography>
                 <h2 className="infoBox__cases">{cases}</h2>
-                <Typography className="infoBox__total">{total}</Typography>
+                <Typography className="infoBox__total">{total} total</Typography>
             </CardContent>
         </Card>
     )
 }
 
-export default infoBox;
+export default InfoBox;
