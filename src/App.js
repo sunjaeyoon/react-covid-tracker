@@ -2,9 +2,9 @@ import React, {useState, useEffect} from "react";
 import './App.css';
 import { MenuItem, FormControl, Select, Card, CardContent } from "@material-ui/core";
 import InfoBox from './InfoBox';
-import Map from './Map';
+import MyMap from './MyMap';
 import Table from './Table';
-//import LineGraph from './LineGraph';
+import LineGraph from './LineGraph';
 
 import {sortData} from './util'
 
@@ -95,7 +95,8 @@ function App() {
         </div>
         {/**Map   */}
         <div className="app__map">
-          <Map/>
+          {/*<MyMap/>*/}
+        
         </div>
       </div>
 
@@ -105,9 +106,10 @@ function App() {
         <Card>
           <CardContent>
             <h3>Live Cases by Country</h3>
-              <Table countries={tableData} />
+            
               {/*<Table countries={tableData}></Table>*/}
             <h3>New Cases</h3>
+              <LineGraph/>
               {/*<LineGraph />*/}
           </CardContent>
         </Card>
